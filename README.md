@@ -5,7 +5,7 @@ This is a "bare minimum" repo that shows one way to configure TypeScript Project
 # Setting up this repo
 
 ```
-> git clone https://github.com/RyanCavanaugh/learn-a.git
+> git clone https://github.com/ravenscar/learn-a.git
 > cd learn-a
 > npm install
 > lerna bootstrap

@@ -1,6 +1,13 @@
-import * as p1 from '@ryancavanaugh/pkg1';
-
-export function fn4() {
-    p1.fn();
-}
-
+export const getRandomThingy = () : import('@ryancavanaugh/pkg1').thingy => {
+  switch (Math.floor(Math.random() * 3)) {
+    case 0 : {
+      return 'foo';
+    };
+    case 1 : {
+      return 'bar';
+    };
+    default : {
+      return 'baz';
+    }
+  }
+};

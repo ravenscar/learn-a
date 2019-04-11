@@ -1,3 +1,1 @@
-export function fn() {
-    return "Hello world";
-}
+export type thingy = 'foo' | 'bar' | 'baz';
